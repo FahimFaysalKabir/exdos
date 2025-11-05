@@ -1,0 +1,36 @@
+@use '../../utils' as *;
+
+.tp-transparent-header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;//full width hobe transparent header div ta otherwise width:100% dite hobe
+}
+.tp-main-menu{
+	margin-left:138px;
+	& nav {
+		
+	}
+	& ul{
+		& li{
+			 display: inline-block;
+  			 margin-right: 42px;
+			 position: relative;
+			 & a{
+				color: #fff;
+  				font-family: var(--tp-font-heading);
+  				font-size: 12px;
+  				padding: 36px 0px;//padding 36 dile figma r height 100px cover kore
+  				display: inline-block;//padding dear karone
+			 }
+			 & .sub-menu{
+				position: absolute;
+				top:100%;
+				width:213px;
+				left:0px;
+				background: #fff;
+			 }
+		}
+	}
+
+}
