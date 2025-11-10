@@ -29,7 +29,14 @@
 				width:213px;
 				left:0px;
 				background: #fff;
+              & li {
+				& a {
+					color:#000;
+				}
+			  }    
+
 			 }
+
 		}
 	}
 

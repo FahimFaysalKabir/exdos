@@ -1,1 +1,1 @@
-sass --watch "F:\working\exdos-tp\exdos-tp-project\assets\scss\main.scss":"F:\working\exdos-tp\exdos-tp-project\assets\css\style.css"
+sass --watch "F:\working\exdos\assets\scss\main.scss":"F:\working\exdos\assets\css\style.css"

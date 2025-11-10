@@ -3605,9 +3605,9 @@ textarea {
   width: 213px;
   left: 0px;
   background: #fff;
+}
+.tp-main-menu ul li .sub-menu li a {
+  color: #000;
+}
 
-}
-.tp-main-menu ul li .sub-menu li a{
-  color:red;
-}
 /*# sourceMappingURL=style.css.map */
